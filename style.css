@@ -1,0 +1,42 @@
+h1
+{
+	color: red;
+}
+
+body
+{
+	background-color: grey; 
+}
+
+#page
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	align-content: center;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ float:left; /*pour IE*/
+ border-left:0.5px solid black;
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:266px;
+ line-height:50px; /*hauteur de l'image de fond*/
+ background:black url(noir-bouton.jpg) repeat-x;
+ color:#DCDCDC;
+ text-decoration:none;
+ text-align:center;
+ }
+ul li a:hover {
+ background:black url(blanc-bouton.jpg) repeat-x;
+ color:black;
+ }  
